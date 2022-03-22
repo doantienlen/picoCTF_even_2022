@@ -3,8 +3,8 @@
 Can you get glag? 
 Reverse engineer this https://artifacts.picoctf.net/c/207/KeygenMe.class
 ## Solution: 
-After downloading, i see a file with .class format. Now, i need to cover from .class format to .java format. 
-To be able to java format i need to download https://jar-download.com/artifacts/org.benf/cfr/0.144, then i run it on the terminal. 
+After downloading, i see a file with .class format. Now, i need to cover from .class format to .java format.
+To be able to java format i need to download https://linuxh2o.com/how-to-decompile-a-class-file-into-a-java-file/#google_vignette, then i run it on the terminal. 
 
 ![fresh1](https://user-images.githubusercontent.com/84562630/159388618-7bd81a66-df62-4bf4-b705-ce891fb71b14.PNG)
 
