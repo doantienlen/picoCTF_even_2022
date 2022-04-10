@@ -6,7 +6,16 @@ Reverse engineer this https://artifacts.picoctf.net/c/365/unpackme-upx
 
 Hints: What is the UPX? 
 ## Solution 
-I will use the Ghidra to disassemble the binary: 
+I use the 'strings unpackme-upx' command. I can't find the flag but i do see the 'UPX!' at the end! 
+
+![image](https://user-images.githubusercontent.com/84562630/162611465-bad1e41b-442b-4495-9433-43cd335487ba.png)
+
+I have to decompress it using the upx command. 
+
+![image](https://user-images.githubusercontent.com/84562630/162611540-a4bec4ed-656c-48db-b87f-e69592218fcf.png)
+
+I use the 'chomd +x file name' to run the unpackme-upx. After running, it asks " What's my favorite number?". 
+So i will use the Ghidra to disassemble the binary: 
 ```ghira
 
 undefined8
